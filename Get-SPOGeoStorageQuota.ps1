@@ -1,4 +1,6 @@
-﻿
+# https://github.com/PavolVonSekule/powershell/edit/main/Get-SPOGeoStorageQuota.ps1
+# A script to report on storage in all locations in a multi-geo tenant
+
 #used storage - total
 $gsq = Get-SPOGeoStorageQuota -AllLocations | select @{N="GeoUsedStorage";E={[math]::round($_.GeoUsedStorageMB/1048576,2)}}
 $us=0
