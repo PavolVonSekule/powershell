@@ -1,4 +1,7 @@
-﻿#Set Variables
+# https://github.com/PavolVonSekule/powershell/edit/main/Get-PnPListItem_FilePath-Lenght-Report.ps1
+# A script to create a report on file path length in particular document library above $limit
+
+#Set Variables
 $SiteURL= "https://YOURtenant.sharepoint.com/sites/site1"
 $ListName="Documents"
 $limit = 200 #characters
