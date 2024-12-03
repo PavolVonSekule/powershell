@@ -19,7 +19,7 @@
 
 
         .LINK
-        URL: 
+        URL: https://github.com/PavolVonSekule/powershell/blob/main/PnP_SPO_Get-Subfolders.ps1
 
     #>
 
